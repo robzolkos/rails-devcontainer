@@ -14,17 +14,17 @@ Make sure you have the [Remove Development](https://marketplace.visualstudio.com
 2. Copy the `.devcontainer` from this repo into the existing application
 3. Modify the `.devcontainer/Dockerfile` with correct Ruby and Node versions you need (and any other dev dependencies)
 4. Start vscode and it will prompt you to start the project in a dev container - yes!
-5. Open terminal in vscode and type `ruby -v` and `rails -v` you are now in the devcontainer environment.
+5. Open the integrated terminal in vscode and type `ruby -v` and `rails -v` you are now in the devcontainer environment.
 
 ### Brand new Rails Application
 
 1. Clone this repo
 2. `cd` into it
 3. Start vscode and it will prompt you to start the project in a dev container - yes!
-4. `gem install rails`
+4. Open the integrated terminal in vscode `gem install rails`
 5. `rails new . -d postgresql -c tailwind -j esbuild` (or whatever)
 6. `bin/dev` to start normal rails dev servers
 
-#### Database config sample 
+#### Database config sample
 
-- see the `database.yml.example` on how to set the `host` for the database.  As the database is in docker you need to give the docker host name `db` or the ENV VAR `DB_HOST`
+- see the `database.yml.example` on how to set the `host` for the database. As the database is in docker you need to give the docker host name `db` or the ENV VAR `DB_HOST`
