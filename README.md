@@ -24,3 +24,7 @@ Make sure you have the [Remove Development](https://marketplace.visualstudio.com
 4. `gem install rails`
 5. `rails new . -d postgresql -c tailwind -j esbuild` (or whatever)
 6. `bin/dev` to start normal rails dev servers
+
+#### Database config sample 
+
+- see the `database.yml.example` on how to set the `host` for the database.  As the database is in docker you need to give the docker host name `db` or the ENV VAR `DB_HOST`
