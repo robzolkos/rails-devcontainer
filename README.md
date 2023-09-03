@@ -6,7 +6,7 @@ When you use devcontainers for your Rails projects, each project is self-contain
 
 Another benefit is that the configuration is checked into the source code so other developers can clone down the repo and get to work without any additional setup required.
 
-Make sure you have the [Remove Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack installed in VS Code.
+Make sure you have the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack installed in VS Code.
 
 ### Existing Rails Application
 
