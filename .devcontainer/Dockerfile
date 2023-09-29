@@ -13,8 +13,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
   libpq-dev \
   openssh-client \
   postgresql-client \
-  vim \
-  zsh
+  vim
 
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt install --assume-yes nodejs
