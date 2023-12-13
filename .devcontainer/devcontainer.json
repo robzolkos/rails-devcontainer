@@ -16,7 +16,6 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "Shopify.ruby-extensions-pack",
         "esbenp.prettier-vscode",
         "bradlc.vscode-tailwindcss",
         "eamodio.gitlens",
@@ -32,7 +31,7 @@
   // This can be used to network with other containers or the host.
   // "forwardPorts": [3000, 5432],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bundle config set --local path '/bundle' && bundle install && yarn install",
+  "postCreateCommand": "bundle config set --local path '/bundle' && bundle install",
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
