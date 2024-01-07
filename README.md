@@ -1,6 +1,6 @@
 # Ruby on Rails devcontainer based development
 
-This devcontainer contains Ruby 3.2.2, Postgres and Redis. You can update the Dockerfile and docker-compose.yml to add any other dependencies you may need.
+This devcontainer contains Ruby 3.3.0, Postgres and Redis. You can update the Dockerfile and docker-compose.yml to add any other dependencies you may need.
 
 When you use devcontainers for your Rails projects, each project is self-contained and its dependencies don't interfere with any other projects. Also your developer machine stays clean.
 
